@@ -1,0 +1,27 @@
+{
+  "name": "talkdesk",
+  "display_name": "talkdesk",
+  "description": "Centralize all your customer conversations so nothing gets ignored and everything is searchable   from one place. Easily organize, prioritize and engage with others on support requests.",
+  "logo_url": "http://seayaventures.com/wp-content/uploads/2015/10/logo.png",
+  "icon_url": "http://seayaventures.com/wp-content/uploads/2015/10/logo.png",
+  "authentication_type": "none",
+{
+  "provider": "talkdesk",
+  "name": "create_talkdesk",
+  "display": "create db ",
+  "description": "create a new db from talkdesk",
+  "endpoint": "https://miora.mytalkdesk.com/#monitoring/calls",
+  "inputs": [
+    {
+      "key": "Agent Speed to Answer",
+      "name": "Calls Agent Speed to Answer",
+      "mandatory": true
+    },
+    {
+      "key": "Agent Speed to Answer",
+      "name": "Calls Agent Speed to Answer",
+      "mandatory": true
+    }
+  ]
+}
+}
